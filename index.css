@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: 'retro'; 
+    src: url('assets/fonts/retro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal; 
+  }
+}
